@@ -124,7 +124,7 @@ Un método abstracto no posee implementación en la clase padre.
 
 Las clases hijas deben implementar este método utilizando @Override.
 
-Esto permite que cada tipo de pedido tenga una lógica diferente para calcular su tiempo de entrega.
+Esto permite que cada tipo de pedido tenga una lógica diferente para calcular su tiempo de entrega.<br><br>
 
 Herencia<br>
 
