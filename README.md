@@ -70,14 +70,14 @@ direccionEntrega
 distanciaKm
 tipoPedido
 
-Los atributos utilizan el modificador protected, permitiendo que las clases hijas puedan acceder directamente a ellos.
+Los atributos utilizan el modificador protected, permitiendo que las clases hijas puedan acceder directamente a ellos.<br><br>
 
 
 🍔 PedidoComida
 
 Clase que hereda de Pedido mediante extends.
 
-Representa los pedidos provenientes de restaurantes.
+Representa los pedidos provenientes de restaurantes.<br><br>
 
 
 
@@ -85,7 +85,7 @@ Representa los pedidos provenientes de restaurantes.
 
 Clase que hereda de Pedido mediante extends.
 
-Representa documentos o paquetes que deben ser entregados mediante el servicio de encomiendas.
+Representa documentos o paquetes que deben ser entregados mediante el servicio de encomiendas.<br><br>
 
 
 
@@ -93,7 +93,7 @@ Representa documentos o paquetes que deben ser entregados mediante el servicio d
 
 Clase que hereda de Pedido mediante extends.
 
-Representa las compras realizadas mediante el servicio de Compras Express, como compras de supermercado o farmacia.
+Representa las compras realizadas mediante el servicio de Compras Express, como compras de supermercado o farmacia.<br><br><br>
 
 
 
@@ -126,34 +126,33 @@ Las clases hijas deben implementar este método utilizando @Override.
 
 Esto permite que cada tipo de pedido tenga una lógica diferente para calcular su tiempo de entrega.
 
-Herencia
+Herencia<br>
 
 Las clases:
 
 PedidoComida
 PedidoEncomienda
-PedidoExpress
+PedidoExpress<br>
 
 heredan de Pedido utilizando:
-
 extends Pedido
 
 De esta forma, las clases hijas reciben los atributos y métodos definidos en la clase padre.
 
 
 
-▶️ Instrucciones para ejecutar el proyecto
-Clonar el repositorio desde GitHub.
-Abrir el proyecto en IntelliJ IDEA.
-Verificar que todas las clases se encuentren organizadas en sus respectivos paquetes.
-Ejecutar la clase:
-cl.duoc.app.Main
-Revisar los resultados mostrados en la consola.
-Comparar los tiempos estimados de entrega correspondientes a cada tipo de pedido.
+▶️ Instrucciones para ejecutar el proyecto<br><br>
+Clonar el repositorio desde GitHub.<br>
+Abrir el proyecto en IntelliJ IDEA.<br>
+Verificar que todas las clases se encuentren organizadas en sus respectivos paquetes.<br>
+Ejecutar la clase:<br>
+cl.duoc.app.Main<br>
+Revisar los resultados mostrados en la consola.<br>
+Comparar los tiempos estimados de entrega correspondientes a cada tipo de pedido.<br><br><br>
 
 
 🔗 Repositorio GitHub
 
-Repositorio: POO2ActividadS2
-https://github.com/cpintomartinezsoc-cmyk/Poo2Actividad2.git
+Repositorio: POO2ActividadS2<br>
+https://github.com/cpintomartinezsoc-cmyk/Poo2Actividad2.git<br>
 Fecha de entrega: 24/08/2026
