@@ -128,16 +128,16 @@ Esto permite que cada tipo de pedido tenga una lógica diferente para calcular s
 
 Herencia<br>
 
-Las clases:
+Las clases:<br><br>
 
-PedidoComida
-PedidoEncomienda
+PedidoComida<br>
+PedidoEncomienda<br>
 PedidoExpress<br>
 
-heredan de Pedido utilizando:
-extends Pedido
+heredan de Pedido utilizando:<br>
+extends Pedido<br><br>
 
-De esta forma, las clases hijas reciben los atributos y métodos definidos en la clase padre.
+De esta forma, las clases hijas reciben los atributos y métodos definidos en la clase padre.<br><br><br>
 
 
 
